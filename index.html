@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flip Style Countdown</title>
+  <!-- Linking the external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container for the clock and controls -->
+  <div class="clock-container">
+
+    <!-- Timer display with minutes and seconds -->
+    <div id="timer">
+      <span id="minutes">60</span>:<span id="seconds">00</span>
+    </div>
+
+    <!-- Buttons to control the countdown -->
+    <div class="controls">
+      <!-- Start button triggers the startTimer() function in script.js -->
+      <button onclick="startTimer()">Start</button>
+
+      <!-- Pause button triggers the pauseTimer() function -->
+      <button onclick="pauseTimer()">Pause</button>
+
+      <!-- Reset button triggers the resetTimer() function -->
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <!-- Message display area for any alerts or completion message -->
+    <p id="message"></p>
+  </div>
+
+  <!-- Linking the external JavaScript file for timer functionality -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,169 @@
+/* Basic reset and background setup for full screen */
+@media (min-width: 600px){
+body {
+  margin: 0; /* Removes default browser margin */
+  background-image: url('clock\ bg.jpg'); /* Sets background image */
+  font-family: Arial, sans-serif; /* Sets font for entire page */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers content */
+  align-items: center; /* Vertically centers content */
+  height: 100vh; /* Makes body height equal to viewport height */
+  color: #fff; /* Sets default text color to white */
+}
+
+/* Container for the timer and buttons */
+.clock-container {
+  text-align: center; /* Centers the content inside */
+}
+
+/* Timer styling */
+#timer {
+  font-size: 200px; /* Very large text for minutes:seconds */
+  opacity: 0.5; /* Makes it slightly transparent for stylistic effect */
+  font-weight: bold; /* Bold font */
+  letter-spacing: 8px; /* Spacing between digits */
+  padding: 40px 60px; /* Space around the timer */
+}
+
+/* Styling for the control buttons container */
+.controls {
+  margin-top: 30px; /* Space above the buttons */
+}
+
+/* Individual button styling */
+.controls button {
+  padding: 10px 20px; /* Inner spacing */
+  margin: 0 10px; /* Space between buttons */
+  font-size: 18px; /* Readable font size */
+  background-color: #222; /* Dark background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for buttons */
+.controls button:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+/* Message text styling (e.g. "Time's up!") */
+#message {
+  margin-top: 20px; /* Space above the message */
+  font-size: 22px; /* Slightly large text */
+  color: #0f0; /* Green color for success/completion messages */
+}
+}
+@media (min-width: 475px) and (max-width: 600px){
+  body {
+  margin: 0; /* Removes default browser margin */
+  background-image: url('clock\ bg.jpg'); /* Sets background image */
+  font-family: Arial, sans-serif; /* Sets font for entire page */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers content */
+  align-items: center; /* Vertically centers content */
+  height: 100vh; /* Makes body height equal to viewport height */
+  color: #fff; /* Sets default text color to white */
+}
+
+/* Container for the timer and buttons */
+.clock-container {
+  text-align: center; /* Centers the content inside */
+}
+
+/* Timer styling */
+#timer {
+  font-size: 150px; /* Very large text for minutes:seconds */
+  opacity: 0.5; /* Makes it slightly transparent for stylistic effect */
+  font-weight: bold; /* Bold font */
+  letter-spacing: 8px; /* Spacing between digits */
+  padding: 40px 60px; /* Space around the timer */
+}
+
+/* Styling for the control buttons container */
+.controls {
+  margin-top: 30px; /* Space above the buttons */
+}
+
+/* Individual button styling */
+.controls button {
+  padding: 10px 20px; /* Inner spacing */
+  margin: 0 10px; /* Space between buttons */
+  font-size: 18px; /* Readable font size */
+  background-color: #222; /* Dark background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for buttons */
+.controls button:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+/* Message text styling (e.g. "Time's up!") */
+#message {
+  margin-top: 20px; /* Space above the message */
+  font-size: 22px; /* Slightly large text */
+  color: #0f0; /* Green color for success/completion messages */
+}
+}
+@media (max-width: 475px){
+body {
+  margin: 0; /* Removes default browser margin */
+  background-image: url('clock\ bg.jpg'); /* Sets background image */
+  font-family: Arial, sans-serif; /* Sets font for entire page */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers content */
+  align-items: center; /* Vertically centers content */
+  height: 100vh; /* Makes body height equal to viewport height */
+  color: #fff; /* Sets default text color to white */
+}
+
+/* Container for the timer and buttons */
+.clock-container {
+  text-align: center; /* Centers the content inside */
+}
+
+/* Timer styling */
+#timer {
+  font-size: 100px; /* Very large text for minutes:seconds */
+  opacity: 0.5; /* Makes it slightly transparent for stylistic effect */
+  font-weight: bold; /* Bold font */
+  letter-spacing: 8px; /* Spacing between digits */
+  padding: 40px 60px; /* Space around the timer */
+}
+
+/* Styling for the control buttons container */
+.controls {
+  margin-top: 30px; /* Space above the buttons */
+}
+
+/* Individual button styling */
+.controls button {
+  padding: 10px 20px; /* Inner spacing */
+  margin: 0 10px; /* Space between buttons */
+  font-size: 18px; /* Readable font size */
+  background-color: #222; /* Dark background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for buttons */
+.controls button:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+/* Message text styling (e.g. "Time's up!") */
+#message {
+  margin-top: 20px; /* Space above the message */
+  font-size: 22px; /* Slightly large text */
+  color: #0f0; /* Green color for success/completion messages */
+}
+}
